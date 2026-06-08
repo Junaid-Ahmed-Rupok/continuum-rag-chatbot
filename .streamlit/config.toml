@@ -1,0 +1,37 @@
+# Streamlit Configuration for Continuum RAG Chatbot
+
+[theme]
+# Dark theme with cyberpunk/neon accents
+base = "dark"
+primaryColor = "#00e5ff"
+backgroundColor = "#0a0e1a"
+secondaryBackgroundColor = "#151c2c"
+textColor = "#f0f3ff"
+font = "sans serif"
+
+[server]
+# Server settings
+maxUploadSize = 10
+enableXsrfProtection = true
+enableCORS = false
+enableXsrfCookie = true
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[runner]
+# Runner settings - faster startup
+magicEnabled = false
+installTracer = false
+
+[logger]
+# Logging level
+level = "info"
+
+[client]
+# Client settings
+showErrorDetails = true
+toolbarMode = "auto"
