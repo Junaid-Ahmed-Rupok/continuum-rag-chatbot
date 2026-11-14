@@ -251,24 +251,6 @@ textColor = "#f0f3ff"
 
 ---
 
-## 🧪 Testing
-
-```bash
-python -m pytest tests/
-```
-
-Test coverage includes:
-- ✅ Directory structure validation
-- ✅ ChromaDB read/write operations
-- ✅ Embedding dimension verification
-- ✅ Decay formula accuracy
-- ✅ Top-K retrieval respect
-- ✅ Reinforcement functionality
-- ✅ Fact extraction accuracy
-- ✅ JSON export validity
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -352,9 +334,8 @@ continuum-rag-chatbot/
 git clone https://github.com/YOUR_USERNAME/continuum-rag-chatbot.git
 cd continuum-rag-chatbot
 pip install -r requirements.txt
-pip install black pytest
+pip install black
 black .
-pytest
 ```
 
 ---
